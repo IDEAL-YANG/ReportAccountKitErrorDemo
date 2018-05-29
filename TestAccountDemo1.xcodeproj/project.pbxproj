@@ -13,6 +13,14 @@
 		9683F4A220BBFC07002DB64A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9683F4A120BBFC07002DB64A /* Assets.xcassets */; };
 		9683F4A520BBFC07002DB64A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9683F4A320BBFC07002DB64A /* LaunchScreen.storyboard */; };
 		9683F4A820BBFC07002DB64A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9683F4A720BBFC07002DB64A /* main.m */; };
+		9683F4B320BBFC2C002DB64A /* MyUIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9683F4AE20BBFC2A002DB64A /* MyUIManager.m */; };
+		9683F4B420BBFC2C002DB64A /* AccountKitStrings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9683F4B020BBFC2A002DB64A /* AccountKitStrings.bundle */; };
+		9683F4B520BBFC2C002DB64A /* profile-dream.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9683F4B120BBFC2B002DB64A /* profile-dream.jpg */; };
+		9683F4B620BBFC2C002DB64A /* AccountKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9683F4B220BBFC2C002DB64A /* AccountKit.framework */; };
+		9683F4BF20BC0BB0002DB64A /* AdvancedUIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9683F4BC20BC0BB0002DB64A /* AdvancedUIManager.m */; };
+		9683F4C020BC0BB0002DB64A /* PlaceholderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9683F4BE20BC0BB0002DB64A /* PlaceholderView.m */; };
+		9683F4C320BC0D60002DB64A /* LXActionBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9683F4C220BC0D60002DB64A /* LXActionBar.m */; };
+		96A8562A20BCF37300A50C77 /* LXHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A8562920BCF37300A50C77 /* LXHeader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +34,19 @@
 		9683F4A420BBFC07002DB64A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9683F4A620BBFC07002DB64A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9683F4A720BBFC07002DB64A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9683F4AE20BBFC2A002DB64A /* MyUIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyUIManager.m; sourceTree = "<group>"; };
+		9683F4AF20BBFC2A002DB64A /* MyUIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyUIManager.h; sourceTree = "<group>"; };
+		9683F4B020BBFC2A002DB64A /* AccountKitStrings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AccountKitStrings.bundle; sourceTree = "<group>"; };
+		9683F4B120BBFC2B002DB64A /* profile-dream.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "profile-dream.jpg"; sourceTree = "<group>"; };
+		9683F4B220BBFC2C002DB64A /* AccountKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AccountKit.framework; sourceTree = "<group>"; };
+		9683F4BB20BC0BB0002DB64A /* AdvancedUIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvancedUIManager.h; sourceTree = "<group>"; };
+		9683F4BC20BC0BB0002DB64A /* AdvancedUIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvancedUIManager.m; sourceTree = "<group>"; };
+		9683F4BD20BC0BB0002DB64A /* PlaceholderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceholderView.h; sourceTree = "<group>"; };
+		9683F4BE20BC0BB0002DB64A /* PlaceholderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceholderView.m; sourceTree = "<group>"; };
+		9683F4C120BC0D60002DB64A /* LXActionBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXActionBar.h; sourceTree = "<group>"; };
+		9683F4C220BC0D60002DB64A /* LXActionBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXActionBar.m; sourceTree = "<group>"; };
+		96A8562820BCF37300A50C77 /* LXHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXHeader.h; sourceTree = "<group>"; };
+		96A8562920BCF37300A50C77 /* LXHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXHeader.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9683F4B620BBFC2C002DB64A /* AccountKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,7 +88,20 @@
 				9683F4A120BBFC07002DB64A /* Assets.xcassets */,
 				9683F4A320BBFC07002DB64A /* LaunchScreen.storyboard */,
 				9683F4A620BBFC07002DB64A /* Info.plist */,
+				9683F4B220BBFC2C002DB64A /* AccountKit.framework */,
+				9683F4B020BBFC2A002DB64A /* AccountKitStrings.bundle */,
+				9683F4AF20BBFC2A002DB64A /* MyUIManager.h */,
+				9683F4AE20BBFC2A002DB64A /* MyUIManager.m */,
+				9683F4B120BBFC2B002DB64A /* profile-dream.jpg */,
 				9683F4A720BBFC07002DB64A /* main.m */,
+				9683F4BB20BC0BB0002DB64A /* AdvancedUIManager.h */,
+				9683F4BC20BC0BB0002DB64A /* AdvancedUIManager.m */,
+				9683F4BD20BC0BB0002DB64A /* PlaceholderView.h */,
+				9683F4BE20BC0BB0002DB64A /* PlaceholderView.m */,
+				9683F4C120BC0D60002DB64A /* LXActionBar.h */,
+				9683F4C220BC0D60002DB64A /* LXActionBar.m */,
+				96A8562820BCF37300A50C77 /* LXHeader.h */,
+				96A8562920BCF37300A50C77 /* LXHeader.m */,
 			);
 			path = TestAccountDemo1;
 			sourceTree = "<group>";
@@ -130,7 +165,9 @@
 			files = (
 				9683F4A520BBFC07002DB64A /* LaunchScreen.storyboard in Resources */,
 				9683F4A220BBFC07002DB64A /* Assets.xcassets in Resources */,
+				9683F4B520BBFC2C002DB64A /* profile-dream.jpg in Resources */,
 				9683F4A020BBFC06002DB64A /* Main.storyboard in Resources */,
+				9683F4B420BBFC2C002DB64A /* AccountKitStrings.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,8 +179,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				9683F49D20BBFC06002DB64A /* ViewController.m in Sources */,
+				9683F4BF20BC0BB0002DB64A /* AdvancedUIManager.m in Sources */,
+				96A8562A20BCF37300A50C77 /* LXHeader.m in Sources */,
+				9683F4C320BC0D60002DB64A /* LXActionBar.m in Sources */,
+				9683F4C020BC0BB0002DB64A /* PlaceholderView.m in Sources */,
 				9683F4A820BBFC07002DB64A /* main.m in Sources */,
 				9683F49A20BBFC06002DB64A /* AppDelegate.m in Sources */,
+				9683F4B320BBFC2C002DB64A /* MyUIManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +326,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KDBGGLE9RX;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TestAccountDemo1",
+				);
 				INFOPLIST_FILE = TestAccountDemo1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,7 +348,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KDBGGLE9RX;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TestAccountDemo1",
+				);
 				INFOPLIST_FILE = TestAccountDemo1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

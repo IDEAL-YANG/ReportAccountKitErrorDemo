@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,13 +13,66 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="标题暂无" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="74u-eH-hxa">
+                                <rect key="frame" x="152.5" y="62" width="69.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="值暂无" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iZD-BL-dWh">
+                                <rect key="frame" x="161" y="103" width="52" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="账户ID暂无" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c2n-44-lh8">
+                                <rect key="frame" x="144.5" y="146" width="85.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M3b-yK-Iyj">
+                                <rect key="frame" x="156.5" y="318" width="61" height="30"/>
+                                <state key="normal" title="自定义UI"/>
+                                <connections>
+                                    <action selector="clickLoginSMS:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GBs-mJ-pDB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qKO-es-uKG">
+                                <rect key="frame" x="141" y="370" width="92" height="30"/>
+                                <state key="normal" title="可修改区域UI"/>
+                                <connections>
+                                    <action selector="clickAdvancedUI:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UcP-Ql-5ss"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="iZD-BL-dWh" firstAttribute="top" secondItem="74u-eH-hxa" secondAttribute="bottom" constant="20" id="9WM-x6-mTc"/>
+                            <constraint firstItem="c2n-44-lh8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Adb-DU-Lc8"/>
+                            <constraint firstItem="M3b-yK-Iyj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="F6B-3J-ghh"/>
+                            <constraint firstItem="M3b-yK-Iyj" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="P1G-Qp-TgZ"/>
+                            <constraint firstItem="c2n-44-lh8" firstAttribute="top" secondItem="iZD-BL-dWh" secondAttribute="bottom" constant="22" id="RIY-8r-x2e"/>
+                            <constraint firstItem="qKO-es-uKG" firstAttribute="top" secondItem="M3b-yK-Iyj" secondAttribute="bottom" constant="22" id="SSu-8f-hGh"/>
+                            <constraint firstItem="iZD-BL-dWh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ZcO-ra-seM"/>
+                            <constraint firstItem="qKO-es-uKG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="alf-WM-VYe"/>
+                            <constraint firstItem="74u-eH-hxa" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="42" id="ff8-ZY-Rku"/>
+                            <constraint firstItem="74u-eH-hxa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vsM-wc-vRu"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="accountIDLabel" destination="c2n-44-lh8" id="tm3-LJ-VUh"/>
+                        <outlet property="advanceBtn" destination="qKO-es-uKG" id="SV9-b2-BUi"/>
+                        <outlet property="loginBtn" destination="M3b-yK-Iyj" id="hJg-EO-O3v"/>
+                        <outlet property="titleLabel" destination="74u-eH-hxa" id="usY-PU-tEa"/>
+                        <outlet property="valueLabel" destination="iZD-BL-dWh" id="sv0-KD-9NN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
