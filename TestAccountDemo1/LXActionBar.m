@@ -21,7 +21,7 @@
     if ((self = [super initWithFrame:frame])) {
         UIButton *backBtn = [UIButton buttonWithType:UIButtonTypeCustom];
         [backBtn setFrame:CGRectMake(20, 20, 44, 44)];
-        [backBtn setTitle:@"Back" forState:UIControlStateNormal];
+        [backBtn setTitle:NSLocalizedStringFromTable(@"Back", @"Demo" ,@"Back") forState:UIControlStateNormal];
         [backBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
         [backBtn addTarget:self action:@selector(clickBackBtnAction:) forControlEvents:UIControlEventTouchUpInside];
         [self addSubview:backBtn];

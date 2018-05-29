@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "标题暂无"; ObjectID = "74u-eH-hxa"; */
+"74u-eH-hxa.text" = "标题暂无";
+
+/* Class = "UIButton"; normalTitle = "自定义UI"; ObjectID = "M3b-yK-Iyj"; */
+"M3b-yK-Iyj.normalTitle" = "自定义UI";
+
+/* Class = "UILabel"; text = "账户ID暂无"; ObjectID = "c2n-44-lh8"; */
+"c2n-44-lh8.text" = "账户ID暂无";
+
+/* Class = "UILabel"; text = "值暂无"; ObjectID = "iZD-BL-dWh"; */
+"iZD-BL-dWh.text" = "值暂无";
+
+/* Class = "UIButton"; normalTitle = "可修改区域UI"; ObjectID = "qKO-es-uKG"; */
+"qKO-es-uKG.normalTitle" = "可修改区域UI";
