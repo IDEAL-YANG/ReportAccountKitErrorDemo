@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>AccountKitClientToken</key>
-	<string>55ae4d10077441a37a0128e60ad0d0f2</string>
+	<string>a134ae92ae2d081c7fc1d2ce216a5adf</string>
 	<key>AccountKitFacebookAppEventsEnabled</key>
-	<integer>1</integer>
+	<integer>0</integer>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>
@@ -27,14 +27,14 @@
 			<string>Editor</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>ak993923234116218</string>
+				<string>ak417572495381695</string>
 			</array>
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>FacebookAppID</key>
-	<string>993923234116218</string>
+	<string>417572495381695</string>
 	<key>LSApplicationCategoryType</key>
 	<string></string>
 	<key>LSRequiresIPhoneOS</key>

@@ -37,15 +37,15 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M3b-yK-Iyj">
-                                <rect key="frame" x="156.5" y="318" width="61" height="30"/>
-                                <state key="normal" title="自定义UI"/>
+                                <rect key="frame" x="126" y="318" width="122" height="30"/>
+                                <state key="normal" title="Custome UI Login"/>
                                 <connections>
                                     <action selector="clickLoginSMS:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GBs-mJ-pDB"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qKO-es-uKG">
-                                <rect key="frame" x="141" y="370" width="92" height="30"/>
-                                <state key="normal" title="可修改区域UI"/>
+                                <rect key="frame" x="126" y="370" width="122" height="30"/>
+                                <state key="normal" title="可修改区域UI登陆"/>
                                 <connections>
                                     <action selector="clickAdvancedUI:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UcP-Ql-5ss"/>
                                 </connections>

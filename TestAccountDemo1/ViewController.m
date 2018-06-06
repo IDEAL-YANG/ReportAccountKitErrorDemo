@@ -110,12 +110,10 @@
 - (void)loginWithPhone:(id)sender
 {
     NSString *preFillPhoneNumber = @"18238833039";
-    NSString *preFillEmail = @"lixiang.yang@holaverse.com";
     NSString *inputState = [[NSUUID UUID] UUIDString];
     AKFPhoneNumber *number = [[AKFPhoneNumber alloc] initWithCountryCode:@"+86" phoneNumber:preFillPhoneNumber];
     UIViewController<AKFViewController> *viewController =
     [_accountKit viewControllerForPhoneLoginWithPhoneNumber:number state:inputState];
-//    [_accountKit viewControllerForEmailLoginWithEmail:preFillEmail state:inputState];
     [self _prepareLoginViewController:viewController custom:[(UIButton*)sender tag]]; // see above
     [self presentViewController:viewController animated:YES completion:NULL];
 }
